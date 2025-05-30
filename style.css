@@ -9,7 +9,7 @@ body{
     background-image:url(paper-style-dynamic-lines-background_23-2149008629.jpg);
     flex-wrap: wrap;
 }
-@media(max-width:600px){
+@media(max-width:350px){
     .body{grid-template-columns: 1fr;
        margin: 0;
         background-size: auto;
@@ -26,7 +26,7 @@ body{
     gap: 2rem;
     justify-content:center;
 }
-@media(max-width:600px){
+@media(max-width:350px){
     .first{display: flex;
      gap:2rem;}
 }
@@ -94,7 +94,7 @@ h1{
     gap: 2rem;
 }   
 
-@media (max-width:600px){ 
+@media (max-width:350px){ 
     .footer{display: flex;}
 }
 
@@ -124,7 +124,7 @@ h1{
     align-items: center;
     justify-content: center;
 }
-@media(max-width:600px){
+@media(max-width:350px){
     .container{grid-template-columns: repeat(2,30%);
     grid-template-rows: auto;
 }
@@ -184,7 +184,4 @@ h1{
 }
 .pro a:hover{
     color: blue;
-}
-@media (max-width:600px){
-
 }
