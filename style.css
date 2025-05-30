@@ -14,7 +14,8 @@ body{
     .body{grid-template-columns: 1fr;
     margin: 0;
 background-size: auto;
-height: fit-content;}
+height: fit-content; 
+    height:100%}
 
 }
 
