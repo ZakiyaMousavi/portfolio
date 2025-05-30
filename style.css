@@ -156,11 +156,13 @@ h1{
     color: white;
 }
 .pro a:hover{
-    color: blue;}
+    color: blue;
+}
+@media (max-width:600px){
+    .first, .introduction, .footer, .container, .con{
+        grid-template-columns: 1fr;
+        height: 120px;
+    }
 
 
-
-
-
-
-
+}
