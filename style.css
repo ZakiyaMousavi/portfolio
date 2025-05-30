@@ -7,7 +7,6 @@ body{
     margin:0;
     height: 100vh;
     background-image:url(paper-style-dynamic-lines-background_23-2149008629.jpg);
-    background-size: 100%;
     flex-wrap: wrap;
 }
 @media(max-width:600px){
@@ -24,11 +23,12 @@ body{
     display: flex;
     flex-wrap:wrap;
     align-items: center;
-    gap: 5rem;
+    gap: 2rem;
     justify-content:center;
 }
 @media(max-width:600px){
-    .first{display: flex;}
+    .first{display: flex;
+     gap:2rem;}
 }
 
 h1{
