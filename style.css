@@ -6,7 +6,7 @@ body{
     align-items: center;
     margin:0;
     height: 100vh;
-    background-image:url(Photos/paper-style-dynamic-lines-background_23-2149008629.jpg);
+    background-image:url(paper-style-dynamic-lines-background_23-2149008629.jpg);
     background-size: 100%;
     flex-wrap: wrap;
 }
