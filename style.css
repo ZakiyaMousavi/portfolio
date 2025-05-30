@@ -11,9 +11,10 @@ body{
     flex-wrap: wrap;
 }
 @media(max-width:600px){
-    .body{grid-template-columns: auto;
+    .body{grid-template-columns: 1fr;
     margin: 0;
-background-size: auto;}
+background-size: auto;
+height: fit-content;}
 
 }
 
@@ -36,9 +37,6 @@ h1{
     to{text-shadow: 0 0 15px white;
     }
     
-}
-@media (max-width:600px){
-    .first{display: flex;}
 }
 
 .navbar{
@@ -87,7 +85,15 @@ h1{
     justify-content: center;
     align-items: center;
     gap: 2rem;
+}   
+
+@media (max-width:600px){ 
+    .footer{display: flex;}
 }
+
+
+
+
 .last{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.8rem;
@@ -110,6 +116,11 @@ h1{
     padding: 2rem;
     align-items: center;
     justify-content: center;
+}
+@media(max-width:600px){
+    .container{grid-template-columns: repeat(2,30%);
+    grid-template-rows: auto;
+}
 }
 .me{
     display: flex;
