@@ -10,6 +10,12 @@ body{
     background-size: 100%;
     flex-wrap: wrap;
 }
+@media(max-width:600px){
+    .body{grid-template-columns: auto;
+    margin: 0;
+background-size: auto;}
+
+}
 
 .first{
     display: flex;
@@ -30,6 +36,9 @@ h1{
     to{text-shadow: 0 0 15px white;
     }
     
+}
+@media (max-width:600px){
+    .first{display: flex;}
 }
 
 .navbar{
@@ -158,6 +167,6 @@ h1{
 .pro a:hover{
     color: blue;
 }
-
+@media (max-width:600px){
 
 }
