@@ -12,10 +12,11 @@ body{
 }
 @media(max-width:600px){
     .body{grid-template-columns: 1fr;
-    margin: 0;
-background-size: auto;
-height: fit-content; 
-    height:100%}
+       margin: 0;
+        background-size: auto;
+      height: 100%;
+      display: grid;
+      grid-template-rows: auto;}
 
 }
 
@@ -23,6 +24,9 @@ height: fit-content;
     display: flex;
     align-items: center;
     gap: 20rem;
+}
+@media(max-width:600px){
+    .first{display: flex;}
 }
 
 h1{
